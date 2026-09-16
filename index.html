@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fara Dita Aviana | Portofolio Pribadi - Siswa RPL</title>
+  
+  <!-- Meta SEO -->
+  <meta name="description" content="Website portofolio pribadi Fara Dita Aviana, siswi SMK Negeri Tembarak jurusan Rekayasa Perangkat Lunak (RPL). Eksplorasi teknologi, UI/UX design, kreativitas, dan seni." />
+  <meta name="author" content="Fara Dita Aviana" />
+  <meta name="keywords" content="Fara Dita Aviana, Portofolio RPL, SMK Negeri Tembarak, UI/UX Design, Pelajar RPL, Temanggung" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fara Dita Aviana | Portofolio Pribadi" />
+  <meta property="og:description" content="Portofolio resmi siswi SMK Negeri Tembarak jurusan Rekayasa Perangkat Lunak (RPL)." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Google Fonts: Poppins & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container container">
+      <a href="#hero" class="brand-logo" id="brand-logo" aria-label="Fara Dita Aviana Home">
+        <span class="logo-text">Fara<span class="logo-dot">.</span></span>
+        <span class="logo-badge">RPL</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Dark Mode Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle tema gelap atau terang" title="Ganti Mode Tema">
+          <i class="fa-solid fa-moon icon-moon"></i>
+          <i class="fa-solid fa-sun icon-sun"></i>
+        </button>
+
+        <!-- CTA Nav Button -->
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta-btn">Connect</a>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Menu navigasi mobile" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Fara Dita Aviana</span>
+      <button class="close-drawer-btn" id="close-drawer-btn" aria-label="Tutup menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#hero" class="mobile-nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#about" class="mobile-nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
+      <li><a href="#education" class="mobile-nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+      <li><a href="#skills" class="mobile-nav-link"><i class="fa-solid fa-sparkles"></i> Skills</a></li>
+      <li><a href="#experience" class="mobile-nav-link"><i class="fa-solid fa-clock-rotate-left"></i> Experience</a></li>
+      <li><a href="#projects" class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i> Projects</a></li>
+      <li><a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <div class="drawer-location">
+        <i class="fa-solid fa-location-dot"></i> Temanggung, Jawa Tengah
+      </div>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-tag-wrap animate-fade-in">
+            <span class="badge-greeting">
+              <span class="wave-hand">👋</span> Hello, I'm Fara
+            </span>
+            <span class="badge-location">
+              <i class="fa-solid fa-location-dot"></i> Temanggung, Jawa Tengah
+            </span>
+          </div>
+
+          <h1 class="hero-name animate-fade-in">Fara Dita Aviana</h1>
+          
+          <div class="hero-roles animate-fade-in">
+            <span class="role-item"><i class="fa-solid fa-graduation-cap"></i> Student</span>
+            <span class="role-divider">•</span>
+            <span class="role-item"><i class="fa-solid fa-laptop-code"></i> RPL Student</span>
+            <span class="role-divider">•</span>
+            <span class="role-item"><i class="fa-solid fa-palette"></i> Creative Learner</span>
+          </div>
+
+          <p class="hero-desc animate-fade-in">
+            Seorang pelajar RPL yang tertarik pada teknologi, desain, menggambar, dan bidang kecantikan. Saya senang belajar hal baru, bekerja sama dalam tim, dan mengembangkan kreativitas melalui berbagai pengalaman.
+          </p>
+
+          <div class="hero-cta animate-fade-in">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Portfolio</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#about" class="btn btn-secondary">
+              <span>About Me</span>
+              <i class="fa-solid fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="hero-quick-stats animate-fade-in">
+            <div class="stat-pill">
+              <span class="stat-num">SMKN Tembarak</span>
+              <span class="stat-label">Sekolah</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-num">Kelas XI RPL</span>
+              <span class="stat-label">Jurusan</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-num">2025 – Sekarang</span>
+              <span class="stat-label">Tahun Masuk</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual animate-fade-in">
+          <div class="avatar-wrapper">
+            <!-- Decorative Backdrops -->
+            <div class="blob-bg"></div>
+            <div class="blob-glow"></div>
+            
+            <div class="avatar-card">
+              <img src="assets/avatar.jpg" alt="Ilustrasi Fara Dita Aviana - Pelajar RPL Kreatif" class="avatar-img" />
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-figma" title="UI/UX & Desain Grafis">
+              <div class="badge-icon"><i class="fa-brands fa-figma"></i></div>
+              <div class="badge-text">
+                <span class="badge-sub">UI/UX</span>
+                <span class="badge-main">Figma</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-code" title="Coding & Web">
+              <div class="badge-icon"><i class="fa-solid fa-code"></i></div>
+              <div class="badge-text">
+                <span class="badge-sub">Programmer</span>
+                <span class="badge-main">RPL</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-creative" title="Seni, Menggambar & Makeup">
+              <div class="badge-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div class="badge-text">
+                <span class="badge-sub">Passionate</span>
+                <span class="badge-main">Creative</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <a href="#about" aria-label="Scroll ke bagian About">
+          <span class="scroll-dot"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-regular fa-user"></i> Mengenal Saya</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card-main card-aesthetic">
+            <div class="about-icon-quote">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <p class="about-quote-text">
+              "Saya adalah <strong>Fara Dita Aviana</strong>, seorang pelajar SMK Negeri Tembarak jurusan Rekayasa Perangkat Lunak (RPL). Saat ini saya duduk di kelas XI dan sedang mengembangkan kemampuan di bidang teknologi, desain, serta kreativitas. Saya senang mempelajari hal-hal baru, bekerja sama dalam tim, dan mengembangkan kemampuan melalui berbagai pengalaman dan kegiatan."
+            </p>
+            
+            <div class="about-cv-action">
+              <button class="btn btn-primary" id="open-cv-modal-btn">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>Lihat Ringkasan CV</span>
+              </button>
+              <button class="btn btn-outline" id="print-cv-btn" title="Cetak atau simpan CV">
+                <i class="fa-solid fa-download"></i>
+                <span>Download CV</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="about-details-cards">
+            <div class="info-card card-aesthetic">
+              <div class="info-icon"><i class="fa-solid fa-id-badge"></i></div>
+              <div class="info-content">
+                <span class="info-label">Nama Panggilan</span>
+                <h3 class="info-value">Fara</h3>
+              </div>
+            </div>
+
+            <div class="info-card card-aesthetic">
+              <div class="info-icon"><i class="fa-solid fa-venus"></i></div>
+              <div class="info-content">
+                <span class="info-label">Jenis Kelamin</span>
+                <h3 class="info-value">Perempuan</h3>
+              </div>
+            </div>
+
+            <div class="info-card card-aesthetic">
+              <div class="info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="info-content">
+                <span class="info-label">Status & Institusi</span>
+                <h3 class="info-value">Pelajar • SMKN Tembarak</h3>
+              </div>
+            </div>
+
+            <div class="info-card card-aesthetic">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-content">
+                <span class="info-label">Domisili</span>
+                <h3 class="info-value">Temanggung, Jawa Tengah</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-school"></i> Latar Belakang</span>
+          <h2 class="section-title">Pendidikan Saya</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="education-card card-aesthetic">
+          <div class="education-header">
+            <div class="school-badge-icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="school-title-wrap">
+              <div class="school-top-row">
+                <h3 class="school-name">SMK Negeri Tembarak</h3>
+                <span class="edu-status-pill">Sedang Ditempuh</span>
+              </div>
+              <div class="school-meta">
+                <span class="meta-tag"><i class="fa-solid fa-laptop-code"></i> Rekayasa Perangkat Lunak (RPL)</span>
+                <span class="meta-tag"><i class="fa-solid fa-layer-group"></i> Kelas XI</span>
+                <span class="meta-tag"><i class="fa-solid fa-calendar"></i> 2025 – Sekarang</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-body">
+            <p class="education-desc">
+              "Saat ini saya sedang menempuh pendidikan di SMK Negeri Tembarak pada jurusan Rekayasa Perangkat Lunak. Dalam proses pembelajaran, saya mempelajari dasar-dasar teknologi dan pengembangan perangkat lunak serta terus melatih kemampuan berpikir kreatif, pemecahan masalah, dan kerja sama tim. Pendidikan ini membantu saya mengenal dunia teknologi sekaligus mengembangkan keterampilan yang dapat digunakan dalam dunia kerja."
+            </p>
+
+            <div class="edu-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <div>
+                  <strong>Dasar Pengembangan Perangkat Lunak</strong>
+                  <span>Mempelajari logika pemrograman, struktur HTML/CSS, dan alur aplikasi.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <div>
+                  <strong>UI/UX Design & Prototyping</strong>
+                  <span>Merancang antarmuka aplikasi interaktif menggunakan Figma.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <div>
+                  <strong>Kolaborasi & Problem Solving</strong>
+                  <span>Terbiasa mengerjakan proyek dan tugas kelompok secara disiplin.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Kemampuan</span>
+          <h2 class="section-title">Keahlian Saya</h2>
+          <p class="section-subtitle">
+            Kombinasi keahlian teknis dan keterampilan interpersonal yang terus saya asah dan kembangkan secara konsisten.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-category-group">
+          <!-- Technical & Creative Skills -->
+          <div class="skills-block">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-laptop-code"></i> Keahlian Teknis & Kreatif
+            </h3>
+            <div class="skills-grid">
+              
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-code">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Dasar Pemrograman</h4>
+                  <p class="skill-desc">Memahami logika dasar alur program, sintaksis pemula, dan struktur web.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-uiux">
+                  <i class="fa-solid fa-desktop"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Dasar UI/UX Design</h4>
+                  <p class="skill-desc">Merancang antarmuka yang bersih, mudah dipahami, dan ramah pengguna.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-figma">
+                  <i class="fa-brands fa-figma"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Figma</h4>
+                  <p class="skill-desc">Membuat wireframe, desain layout aplikasi, komponen, dan prototipe.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-drawing">
+                  <i class="fa-solid fa-palette"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Menggambar</h4>
+                  <p class="skill-desc">Kemampuan visualisasi bentuk, komposisi estetis, dan pemilihan warna.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skills-block">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-users"></i> Keterampilan Interpersonal & Sikap Kerja
+            </h3>
+            <div class="skills-grid">
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-team">
+                  <i class="fa-solid fa-people-group"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Kerja Sama Tim</h4>
+                  <p class="skill-desc">Mampu berbaur dan berkontribusi secara kooperatif dalam kelompok.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-comm">
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Komunikasi</h4>
+                  <p class="skill-desc">Menyampaikan ide, mendengarkan masukan, dan berdialog dengan baik.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-creative">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Kreativitas</h4>
+                  <p class="skill-desc">Menghadirkan solusi visual dan ide baru yang segar dan menarik.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-discipline">
+                  <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Disiplin</h4>
+                  <p class="skill-desc">Berkomitmen menjaga tata tertib, aturan belajar, dan etika pelajar.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-time">
+                  <i class="fa-solid fa-hourglass-half"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Manajemen Waktu</h4>
+                  <p class="skill-desc">Mengatur jadwal belajar, tugas sekolah, dan kegiatan secara teratur.</p>
+                </div>
+              </div>
+
+              <div class="skill-card card-aesthetic">
+                <div class="skill-icon-wrap icon-learn">
+                  <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="skill-info">
+                  <h4 class="skill-title">Kemauan Belajar</h4>
+                  <p class="skill-desc">Antusias mencari tahu materi baru dan selalu terbuka akan perbaikan.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONALITY SECTION -->
+    <section class="section personality-section" id="personality">
+      <div class="container">
+        <div class="personality-banner card-aesthetic">
+          <div class="personality-badge">
+            <i class="fa-solid fa-heart"></i> Karakter & Nilai Pribadi
+          </div>
+          
+          <h2 class="personality-title">Tentang Kepribadian Saya</h2>
+          
+          <div class="personality-content-wrap">
+            <p class="personality-text">
+              "Saya merupakan pribadi yang pekerja keras, disiplin, dan memiliki kemauan untuk terus belajar. Saya berusaha menyelesaikan tugas dengan bertanggung jawab dan dapat bekerja sama dengan orang lain dalam sebuah tim. Saya juga memiliki sisi kreatif dan senang menggambar. Selain itu, saya memiliki minat pada bidang kecantikan dan senang mencoba hal-hal baru yang berhubungan dengan kreativitas dan penampilan."
+            </p>
+
+            <div class="personality-tags">
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Pekerja Keras</span>
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Disiplin</span>
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Senang Belajar</span>
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Kolaboratif</span>
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Kreatif & Artistik</span>
+              <span class="trait-tag"><i class="fa-solid fa-circle-check"></i> Berjiwa Estetis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section class="section interests-section" id="interests">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-compass"></i> Eksplorasi Diri</span>
+          <h2 class="section-title">Minat & Ketertarikan</h2>
+          <p class="section-subtitle">Tiga pilar utama yang menginspirasi rasa ingin tahu dan kreativitas saya.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="interests-grid">
+          
+          <!-- Interest 1 -->
+          <div class="interest-card card-aesthetic">
+            <div class="interest-top">
+              <div class="interest-icon-box tech-box">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <span class="interest-number">01</span>
+            </div>
+            <h3 class="interest-title">Teknologi & RPL</h3>
+            <p class="interest-desc">
+              Saya tertarik mempelajari teknologi, pemrograman, desain aplikasi, dan pengembangan website untuk memecahkan kebutuhan digital.
+            </p>
+            <div class="interest-chips">
+              <span class="chip">Website</span>
+              <span class="chip">Software</span>
+              <span class="chip">UI/UX</span>
+            </div>
+          </div>
+
+          <!-- Interest 2 -->
+          <div class="interest-card card-aesthetic">
+            <div class="interest-top">
+              <div class="interest-icon-box art-box">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <span class="interest-number">02</span>
+            </div>
+            <h3 class="interest-title">Menggambar & Kreativitas</h3>
+            <p class="interest-desc">
+              Saya memiliki minat dalam menggambar dan kegiatan kreatif yang dapat membantu mengembangkan imajinasi serta kepekaan estetika visual.
+            </p>
+            <div class="interest-chips">
+              <span class="chip">Sketsa</span>
+              <span class="chip">Warna</span>
+              <span class="chip">Imajinasi</span>
+            </div>
+          </div>
+
+          <!-- Interest 3 -->
+          <div class="interest-card card-aesthetic">
+            <div class="interest-top">
+              <div class="interest-icon-box beauty-box">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <span class="interest-number">03</span>
+            </div>
+            <h3 class="interest-title">Kecantikan</h3>
+            <p class="interest-desc">
+              Saya tertarik dengan bidang kecantikan, khususnya makeup dan kreativitas dalam merias serta menyelaraskan penampilan visual secara harmonis.
+            </p>
+            <div class="interest-chips">
+              <span class="chip">Makeup</span>
+              <span class="chip">Tata Rias</span>
+              <span class="chip">Estetika</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-clock-rotate-left"></i> Jejak Langkah</span>
+          <h2 class="section-title">Pengalaman</h2>
+          <p class="section-subtitle">Pengalaman nyata yang membentuk kreativitas, ketelitian, dan rasa percaya diri saya.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="experience-timeline">
+          
+          <!-- Experience Card 1 -->
+          <div class="exp-card card-aesthetic">
+            <div class="exp-side-icon">
+              <div class="exp-icon-bubble">
+                <i class="fa-solid fa-brush"></i>
+              </div>
+            </div>
+            <div class="exp-main">
+              <div class="exp-meta-row">
+                <span class="exp-category-tag"><i class="fa-solid fa-masks-theater"></i> Seni & Tata Rias</span>
+                <span class="exp-badge-type">Aktivitas Kreatif</span>
+              </div>
+              <h3 class="exp-title">Makeup untuk Tari</h3>
+              <p class="exp-desc">
+                "Saya pernah memiliki pengalaman melakukan makeup untuk kegiatan tari. Pengalaman ini membantu saya melatih kreativitas, ketelitian, dan kemampuan menyesuaikan makeup dengan kebutuhan penampilan."
+              </p>
+              <div class="exp-learnings">
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Ketelitian Detail</span>
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Harmoni Visual</span>
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Tanggung Jawab</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Card 2 -->
+          <div class="exp-card card-aesthetic">
+            <div class="exp-side-icon">
+              <div class="exp-icon-bubble">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+            </div>
+            <div class="exp-main">
+              <div class="exp-meta-row">
+                <span class="exp-category-tag"><i class="fa-solid fa-award"></i> Kompetisi Kreatif</span>
+                <span class="exp-badge-type">Lomba & Seni</span>
+              </div>
+              <h3 class="exp-title">Lomba Mewarnai</h3>
+              <p class="exp-desc">
+                "Saya pernah mengikuti lomba mewarnai. Pengalaman tersebut menjadi salah satu kegiatan yang mengembangkan kreativitas, ketelitian, dan kemampuan saya dalam memilih serta memadukan warna."
+              </p>
+              <div class="exp-learnings">
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Pemilihan Warna</span>
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Ketekunan</span>
+                <span class="learn-badge"><i class="fa-solid fa-check"></i> Komposisi Visual</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-solid fa-layer-group"></i> Karya & Portofolio</span>
+          <h2 class="section-title">Project Saya</h2>
+          <p class="section-subtitle">Eksplorasi desain antarmuka aplikasi digital yang telah saya rancang.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Featured Project: Aplikasi Penjualan Toko Baju -->
+          <div class="project-card card-aesthetic">
+            <div class="project-media">
+              <img src="assets/project-clothing.jpg" alt="Preview Desain Figma Aplikasi Penjualan Toko Baju" class="project-thumbnail" />
+              <div class="project-overlay">
+                <button class="btn btn-primary btn-sm open-project-btn" data-project="toko-baju">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Lihat Detail Project
+                </button>
+              </div>
+              <span class="project-badge-tool"><i class="fa-brands fa-figma"></i> Figma</span>
+            </div>
+
+            <div class="project-details">
+              <div class="project-category-row">
+                <span class="project-category">UI/UX Design</span>
+                <span class="project-status">Selesai • 2026</span>
+              </div>
+
+              <h3 class="project-name">Aplikasi Penjualan Toko Baju</h3>
+
+              <p class="project-desc">
+                Desain aplikasi penjualan toko baju yang dibuat untuk memberikan pengalaman berbelanja yang sederhana, menarik, dan mudah digunakan. Dalam project ini saya mengeksplorasi tampilan antarmuka, pemilihan warna, layout, tombol, ilustrasi, dan alur aplikasi.
+              </p>
+
+              <div class="project-features-list">
+                <span><i class="fa-solid fa-check"></i> Clean Aesthetic Layout</span>
+                <span><i class="fa-solid fa-check"></i> Katalog & Kategori Busana</span>
+                <span><i class="fa-solid fa-check"></i> Alur Checkout Mudah</span>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-tools-used">
+                  <span class="tool-pill"><i class="fa-brands fa-figma"></i> Figma</span>
+                  <span class="tool-pill"><i class="fa-solid fa-mobile-screen"></i> Mobile UI</span>
+                  <span class="tool-pill"><i class="fa-solid fa-swatchbook"></i> Palette Warm</span>
+                </div>
+                
+                <button class="btn btn-primary open-project-btn" data-project="toko-baju">
+                  <span>View Project</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge"><i class="fa-regular fa-paper-plane"></i> Hubungi Saya</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-wrapper card-aesthetic">
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Mari Berkenalan!</h3>
+            <p class="contact-panel-desc">
+              "Saya senang mendapatkan kesempatan untuk belajar, bekerja sama, dan mengembangkan pengalaman baru."
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span class="item-label">Lokasi</span>
+                  <span class="item-value">Temanggung, Jawa Tengah</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon"><i class="fa-solid fa-school"></i></div>
+                <div>
+                  <span class="item-label">Institusi</span>
+                  <span class="item-value">SMK Negeri Tembarak (RPL)</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="item-label">Email Kontak</span>
+                  <span class="item-value">faradita.aviana@example.com</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-wrap">
+              <span class="social-title">Sosial Media:</span>
+              <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram Fara" title="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Fara" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Fara" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp Fara" title="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Nama Lengkap <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="Masukkan nama Anda" required />
+                </div>
+                <span class="form-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Alamat Email <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="nama@email.com" required />
+                </div>
+                <span class="form-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Pesan <span class="required">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Tuliskan pesan atau sapaan Anda di sini..." required></textarea>
+                </div>
+                <span class="form-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">Fara<span class="logo-dot">.</span></span>
+        <p class="footer-sub">Pelajar Rekayasa Perangkat Lunak • SMKN Tembarak</p>
+      </div>
+
+      <div class="footer-info">
+        <p class="footer-copyright">&copy; 2026 Fara Dita Aviana. All Rights Reserved.</p>
+        <p class="footer-creativity">Designed & Built with Creativity</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-project-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-badge"><i class="fa-brands fa-figma"></i> UI/UX Case Study</span>
+          <h3 class="modal-title" id="modal-project-title">Aplikasi Penjualan Toko Baju</h3>
+        </div>
+        <button class="modal-close-btn" id="close-project-modal" aria-label="Tutup modal project">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Modal Project Banner -->
+        <div class="modal-banner">
+          <img src="assets/project-clothing.jpg" alt="Aplikasi Toko Baju Screens" class="modal-banner-img" />
+        </div>
+
+        <!-- Tab Nav -->
+        <div class="modal-tabs">
+          <button class="modal-tab-btn active" data-tab="overview">Overview</button>
+          <button class="modal-tab-btn" data-tab="goals">Tujuan</button>
+          <button class="modal-tab-btn" data-tab="process">Design Process</button>
+          <button class="modal-tab-btn" data-tab="screens">UI & Wireframe</button>
+          <button class="modal-tab-btn" data-tab="tools">Tools Digunakan</button>
+        </div>
+
+        <!-- Tab Content: Overview -->
+        <div class="tab-pane active" id="tab-overview">
+          <h4>Project Overview</h4>
+          <p>
+            Project ini merupakan rancangan antarmuka (UI/UX) untuk aplikasi belanja pakaian fashion wanita modern ("Aura Cloth"). Desain ini diciptakan untuk menjawab kebutuhan pelanggan muda yang menginginkan tampilan toko pakaian yang bersih, tidak rumit, dengan foto produk yang terpusat dan tata letak yang nyaman dipandang.
+          </p>
+          <p>
+            Dalam project ini saya mengeksplorasi tampilan antarmuka, pemilihan palet warna netral/hangat, layout kartu produk, penempatan tombol call-to-action, ilustrasi ikon, dan simulasi alur pemilihan hingga keranjang belanja.
+          </p>
+        </div>
+
+        <!-- Tab Content: Goals -->
+        <div class="tab-pane" id="tab-goals">
+          <h4>Tujuan Project</h4>
+          <ul class="modal-list">
+            <li><strong>Pengalaman Belanja Intuitif:</strong> Memudahkan calon pembeli menelusuri katalog pakaian tanpa merasa kebingungan.</li>
+            <li><strong>Estetika Minimalis & Hangat:</strong> Menerapkan warna beige, cream, dan earth tone yang mencerminkan kesan fashion elegan dan tenang.</li>
+            <li><strong>Struktur Informasi yang Jelas:</strong> Menampilkan foto produk berkualitas, nama baju, dan harga secara transparan serta rapi.</li>
+            <li><strong>Eksplorasi Keterampilan Figma:</strong> Melatih pembuatan auto-layout, components, variants, dan interactive prototyping di Figma.</li>
+          </ul>
+        </div>
+
+        <!-- Tab Content: Process -->
+        <div class="tab-pane" id="tab-process">
+          <h4>Design Process</h4>
+          <div class="process-steps">
+            <div class="step-card">
+              <div class="step-num">1</div>
+              <div class="step-info">
+                <h5>Empathize & Research</h5>
+                <p>Menganalisis kebutuhan pengguna saat berbelanja baju secara daring: kemudahan mencari model baju dan melihat detail harga.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">2</div>
+              <div class="step-info">
+                <h5>Define & User Flow</h5>
+                <p>Menentukan alur pengguna: Splash Screen &rarr; Home Catalog &rarr; Filter Kategori &rarr; Detail Pakaian &rarr; Add to Cart &rarr; Checkout.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">3</div>
+              <div class="step-info">
+                <h5>Wireframe (Low-Fi)</h5>
+                <p>Membuat sketsa dasar susunan kotak, grid produk dua kolom, header pencarian, serta bottom navigation bar.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">4</div>
+              <div class="step-info">
+                <h5>Visual UI Design (Hi-Fi)</h5>
+                <p>Menerapkan sistem tipografi modern, pemilihan palet warna cream/beige hangat, padding yang pas, dan rounded corners yang lembut.</p>
+              </div>
+            </div>
+            <div class="step-card">
+              <div class="step-num">5</div>
+              <div class="step-info">
+                <h5>Prototype & Testing</h5>
+                <p>Menghubungkan interaksi antarframe di Figma untuk menguji perpindahan halaman dan animasi tombol.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content: Screens & Wireframe -->
+        <div class="tab-pane" id="tab-screens">
+          <h4>UI Design & Wireframe Showcase</h4>
+          <div class="screens-grid">
+            <div class="screen-item">
+              <div class="screen-preview-mockup">
+                <i class="fa-solid fa-mobile-screen screen-icon"></i>
+                <div class="screen-meta">
+                  <strong>01. Home & Catalog</strong>
+                  <p>Kategori tren: New Arrivals, Dresses, Blouse, Jeans, dengan kartu produk berharga jelas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="screen-item">
+              <div class="screen-preview-mockup">
+                <i class="fa-solid fa-shirt screen-icon"></i>
+                <div class="screen-meta">
+                  <strong>02. Product Detail</strong>
+                  <p>Galeri foto baju, pilihan ukuran (S, M, L), deskripsi kain, dan tombol Add to Cart.</p>
+                </div>
+              </div>
+            </div>
+            <div class="screen-item">
+              <div class="screen-preview-mockup">
+                <i class="fa-solid fa-basket-shopping screen-icon"></i>
+                <div class="screen-meta">
+                  <strong>03. Shopping Bag & Cart</strong>
+                  <p>Daftar belanjaan terpilih, ringkasan subtotal harga, dan estimasi ongkos kirim.</p>
+                </div>
+              </div>
+            </div>
+            <div class="screen-item">
+              <div class="screen-preview-mockup">
+                <i class="fa-solid fa-credit-card screen-icon"></i>
+                <div class="screen-meta">
+                  <strong>04. Checkout Flow</strong>
+                  <p>Form alamat pengiriman ringkas, metode pembayaran transfer/e-wallet, dan konfirmasi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content: Tools -->
+        <div class="tab-pane" id="tab-tools">
+          <h4>Tools & Ekosistem Desain</h4>
+          <div class="tools-list">
+            <div class="tool-card">
+              <i class="fa-brands fa-figma tool-ico" style="color: #F24E1E;"></i>
+              <div>
+                <strong>Figma</strong>
+                <span>Alat utama untuk membuat wireframing, high-fidelity user interface, dan prototyping.</span>
+              </div>
+            </div>
+            <div class="tool-card">
+              <i class="fa-solid fa-swatchbook tool-ico" style="color: #8B5E3C;"></i>
+              <div>
+                <strong>Coolors Palette</strong>
+                <span>Pemilihan palet warna hangat (Cream, Beige, Light Brown) agar konsisten secara harmonis.</span>
+              </div>
+            </div>
+            <div class="tool-card">
+              <i class="fa-solid fa-font tool-ico" style="color: #4A3024;"></i>
+              <div>
+                <strong>Google Fonts (Poppins)</strong>
+                <span>Tipografi dengan keterbacaan yang tinggi untuk tampilan seluler.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="close-project-modal-bottom">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CV MODAL -->
+  <div class="modal-backdrop" id="cv-modal" aria-hidden="true" role="dialog" aria-labelledby="cv-modal-title">
+    <div class="modal-dialog cv-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-badge"><i class="fa-solid fa-file-lines"></i> Curriculum Vitae</span>
+          <h3 class="modal-title" id="cv-modal-title">Ringkasan CV - Fara Dita Aviana</h3>
+        </div>
+        <button class="modal-close-btn" id="close-cv-modal" aria-label="Tutup modal CV">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body cv-content-body" id="cv-printable-area">
+        <div class="cv-paper">
+          <div class="cv-head">
+            <div class="cv-head-text">
+              <h2 class="cv-name">FARA DITA AVIANA</h2>
+              <p class="cv-role">Pelajar Rekayasa Perangkat Lunak (RPL) • SMKN Tembarak</p>
+              <div class="cv-contact-row">
+                <span><i class="fa-solid fa-location-dot"></i> Temanggung, Jawa Tengah</span>
+                <span><i class="fa-solid fa-envelope"></i> faradita.aviana@example.com</span>
+                <span><i class="fa-solid fa-phone"></i> +62 812-XXXX-XXXX</span>
+              </div>
+            </div>
+          </div>
+
+          <hr class="cv-divider" />
+
+          <div class="cv-section">
+            <h4 class="cv-sec-title"><i class="fa-solid fa-user"></i> PROFIL SINGKAT</h4>
+            <p class="cv-text">
+              Saya adalah seorang siswi kelas XI jurusan Rekayasa Perangkat Lunak (RPL) di SMK Negeri Tembarak dengan minat besar di bidang teknologi, desain antarmuka aplikasi (UI/UX), seni menggambar, serta kreativitas. Memiliki pribadi yang pekerja keras, disiplin, berdedikasi tinggi, dan senang bekerja sama dalam tim untuk menyelesaikan berbagai tantangan pembelajaran.
+            </p>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-sec-title"><i class="fa-solid fa-graduation-cap"></i> PENDIDIKAN</h4>
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <strong>SMK Negeri Tembarak</strong>
+                <span class="cv-date">2025 – Sekarang</span>
+              </div>
+              <p class="cv-sub">Jurusan Rekayasa Perangkat Lunak (RPL) • Kelas XI</p>
+              <p class="cv-desc">Fokus pada pembelajaran dasar pemrograman, perancangan antarmuka pengguna (UI/UX Design), serta kerja sama proyek tim sekolah.</p>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-sec-title"><i class="fa-solid fa-star"></i> KEAHLIAN & KETERAMPILAN</h4>
+            <div class="cv-skills-columns">
+              <div>
+                <p><strong>Keahlian Teknis & Desain:</strong></p>
+                <ul>
+                  <li>Dasar Pemrograman (HTML, CSS, Konsep Logika Dasar)</li>
+                  <li>UI/UX Design & Wireframing (Figma)</li>
+                  <li>Seni Menggambar & Komposisi Warna</li>
+                </ul>
+              </div>
+              <div>
+                <p><strong>Keterampilan Interpersonal:</strong></p>
+                <ul>
+                  <li>Kerja Sama Tim & Komunikasi Aktif</li>
+                  <li>Disiplin & Manajemen Waktu</li>
+                  <li>Kemauan Belajar Tinggi & Adaptabilitas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-sec-title"><i class="fa-solid fa-briefcase"></i> PENGALAMAN & AKTIVITAS</h4>
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <strong>Makeup untuk Penari Tradisional / Modern</strong>
+                <span class="cv-date">Pengalaman Kreatif</span>
+              </div>
+              <p class="cv-desc">Melakukan tata rias untuk kegiatan penampilan tari, melatih ketelitian detail, kecepatan penataan, dan keselarasan riasan panggung.</p>
+            </div>
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <strong>Peserta Lomba Mewarnai & Seni Visual</strong>
+                <span class="cv-date">Kompetisi Kreatif</span>
+              </div>
+              <p class="cv-desc">Mengasah kepekaan kombinasi warna, estetika gradasi, dan ketekunan visual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer cv-modal-footer">
+        <button class="btn btn-outline" id="close-cv-modal-btn">Tutup</button>
+        <button class="btn btn-primary" id="download-cv-btn-action">
+          <i class="fa-solid fa-print"></i>
+          <span>Cetak / Simpan PDF</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toast-notification">
+    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-content">
+      <h5 class="toast-title">Pesan Terkirim!</h5>
+      <p class="toast-desc">Terima kasih atas pesan Anda, Fara akan segera membalasnya.</p>
+    </div>
+    <button class="toast-close" id="toast-close" aria-label="Tutup notifikasi"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
